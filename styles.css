@@ -1,19 +1,35 @@
+/*
+#1f2937 is background for header and introduction section.
+#f9faf is text color for title text
+Roboto is main font type
+#E5E7EB is secondary text and link text
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #1f2937;
+    padding: 0px 16px;
 }
 
 .logo{
     display: flex;
+    color: #f9faf8;
 }
 
 .links{
     display: flex;
-    gap: 16px;
+    gap: 32px;
     list-style-type: none;
+    color: #E5E7EB;
 }
 
 a{
     text-decoration: none;
+    color: #E5E7EB ;
 }
